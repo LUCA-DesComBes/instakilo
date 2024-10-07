@@ -1,58 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #FFB763;
-    font-family: Arial, Helvetica, sans-serif;
-}   
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #ffb763;
+    font-family: "Roboto", sans-serif;
+}
 article {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 12px;
 }
 nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 12px;
-    padding: 11px 29px;
-    width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 12px;
+	padding: 11px 29px;
+	width: 100%;
 }
 .three-point {
-    display: flex;
-    margin-left: auto;
-    font-size: 31px;
+	display: flex;
+	margin-left: auto;
+	font-size: 31px;
 }
 .bgc-blue {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 19px;
-    background-color: #1FA1FF;
-    color: white;
-    margin-bottom: 18px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 19px;
+	background-color: #1fa1ff;
+	color: white;
+	margin-bottom: 18px;
 }
 code {
-    font-size: 31px;
+	font-size: 31px;
 }
 .follow {
-    padding: 18px 19px;
+	padding: 18px 19px;
 }
-img[alt="coeur"], img[alt="comment"], img[alt="plane"] {
-    margin-bottom: 12px;
+img[alt="coeur"],
+img[alt="comment"],
+img[alt="plane"] {
+	margin-bottom: 12px;
 }
 .flr {
-    position: absolute;
-    right: 33%;
+	position: absolute;
+	right: 30%;
 }
 .likes {
-    margin-bottom: 12px;
+	margin-bottom: 12px;
 }
